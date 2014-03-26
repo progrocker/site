@@ -7,6 +7,9 @@
 font-family: Verdana, Geneva, sans-serif;
 font-size: 0.75em;
 }
+html{
+height:100%
+}
 
 body {
 background: url(../images/bg.png) #EAEAEA;
@@ -15,6 +18,7 @@ font-family: 'HelveticaRegular', Helvetica, Arial;
 font-size: 12px;
 min-width: 740px;
 margin: 0 auto;
+min-height:100%;
 }
 
 h1{
@@ -25,7 +29,7 @@ padding: 20px;
 line-height:45px;
 }
 #container{
-
+height:100%;
 }
 
 #topbaner   {
@@ -47,14 +51,14 @@ box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 #mainheader2{
-width: 1300px;
+width: 1200px;
 height: 350px;
 margin: 0 auto;
 }
 #mainpage{
 margin: 0 auto;
-width: 1300px;
-height: 1100px;
+width: 1200px;
+height: 100%;
 border: solid 1px;
 }
 
@@ -73,9 +77,6 @@ animation-iteration-count: 1;
 -moz-animation-delay: 0;
 -moz-animation-iteration-count: 1;
 }
-
-
-
 /* Navi */
 #nav {
     width: 100%;
@@ -93,7 +94,6 @@ animation-iteration-count: 1;
 }
 #nav ul li {
     float: left;
-
 }
 #nav ul li a {
     font: bold 21px/32px "Lato","Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -116,7 +116,7 @@ animation-iteration-count: 1;
     -moz-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
 }
-#nav ul li a { width: 260px }
+#nav ul li a { width: 240px }
 #nav ul li:first-child a {
     -webkit-border-top-left-radius: 5px;
     -webkit-border-bottom-left-radius: 5px;
@@ -158,25 +158,52 @@ animation-iteration-count: 1;
 #nav ul li:last-child a span { border-right: none }
 
 #leftmenu {
+overflow:hidden;
 float:left;
 width: 250px;
-height: 600px;
+height: 100%;
 border: solid 1px;
 list-style-position:inside;
 }
 #leftmenu ul{
+overflow:hidden;
 list-style-type: none;
 font: 15px 'trebuchet MS', 'lucida sans';
 padding: 0;
 margin-bottom: 4em;
 text-shadow: 0 1px 0 rgba(255,255,255,.5);
- margin: 0 0 0 20px; /* Добавляем небольшое поле слева для вложенного списка */
+ margin: 0 0 0 0px; /* Добавляем небольшое поле слева для вложенного списка */
+}
+#rightmenu {
+overflow:hidden;
+float:right;
+width: 250px;
+height: 100%;
+border: solid 1px;
+list-style-position:inside;
+}
+#rightmenu ul{
+overflow:hidden;
+list-style-type: none;
+font: 15px 'trebuchet MS', 'lucida sans';
+padding: 0;
+margin-bottom: 4em;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+ margin: 0 0 0 0px; /* Добавляем небольшое поле слева для вложенного списка */
+}
+#footer {
+position: relative;
+margin-top: -150px; /* отрицательное значение высоты футера */
+height: 150px;
+clear:both;
+background: #00b49d;
+border-top: 1px solid #BBBBBB;
+box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2);
 }
 .rounded-list a{
         position: relative;
         display: block;
         padding: .4em .4em .4em 2em;
-        *padding: .4em;
         margin: .5em 0;
         background: #ddd;
         color: #444;
@@ -186,27 +213,9 @@ text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 
 .rounded-list a:hover{
-        background: #eee;
+        background: #bae8dc;
 }
 
 .rounded-list a:hover:before{
     transform: rotate(360deg);
-}
-
-.rounded-list a:before{
-        content: counter(li);
-        counter-increment: li;
-        position: absolute;
-        left: -1.3em;
-        top: 50%;
-        margin-top: -1.3em;
-        background: #87ceeb;
-        height: 2em;
-        width: 2em;
-        line-height: 2em;
-        border: .3em solid #fff;
-        text-align: center;
-        font-weight: bold;
-        border-radius: 2em;
-        transition: all .3s ease-out;
 }

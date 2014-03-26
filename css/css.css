@@ -172,21 +172,6 @@ margin-bottom: 4em;
 text-shadow: 0 1px 0 rgba(255,255,255,.5);
  margin: 0 0 0 0px; /* Добавляем небольшое поле слева для вложенного списка */
 }
-#rightmenu {
-float:right;
-width: 250px;
-height: 100%;
-border: solid 1px;
-list-style-position:inside;
-}
-#rightmenu ul{
-list-style-type: none;
-font: 15px 'trebuchet MS', 'lucida sans';
-padding: 0;
-margin-bottom: 4em;
-text-shadow: 0 1px 0 rgba(255,255,255,.5);
- margin: 0 0 0 0px; /* Добавляем небольшое поле слева для вложенного списка */
-}
 #footer {
 position: relative;
 margin-top: -150px; /* отрицательное значение высоты футера */
@@ -214,4 +199,22 @@ box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2);
 
 .rounded-list a:hover:before{
     transform: rotate(360deg);
+}
+@font-face{
+font-family:  Ubuntu;
+src: url(./font/Ubuntu-LightItalic.ttf)
+}
+p{
+font-family:Ubuntu;
+}
+#slider{
+overflow:hidden;
+float:left;
+padding:10px;
+margin:0 auto;
+width: 925px;
+height:100%;
+border: solid 1px;
+font-size: 14pt;
+text-indent: 35px;
 }

@@ -202,18 +202,17 @@ box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2);
 }
 @font-face{
 font-family:  Ubuntu;
-src: url(./font/Ubuntu-LightItalic.ttf)
+src: url(../font/Ubuntu-LightItalic.ttf)
 }
 p{
 font-family:Ubuntu;
 }
 #slider{
-overflow:hidden;
+padding: 5px;
 float:left;
-padding:10px;
 margin:0 auto;
-width: 925px;
-height:100%;
+width: 930px;
+height:1000px;
 border: solid 1px;
 font-size: 14pt;
 text-indent: 35px;

@@ -208,11 +208,11 @@ p{
 font-family:Ubuntu;
 }
 #slider{
-padding: 5px;
+padding: 20px;
 float:left;
 margin:0 auto;
-width: 930px;
-height:1000px;
+width: 900px;
+height:450px;
 border: solid 1px;
 font-size: 14pt;
 text-indent: 35px;

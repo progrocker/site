@@ -111,8 +111,9 @@
 		
 	</ul>
 </div>
+<div>
 <div id="slider">
-<div id="featured"> 
+<div id="featured">
 			<img src="./images/link.jpg" alt="Link" />
 			<img src="./images/ezio.jpg" alt="Ezio" rel="ezioCaption" /></a>
 			<img src="./images/masterchief.jpg" alt="Master Chief" />
@@ -162,8 +163,8 @@
             var images = orbit.find('img, a img');
             images.each(function() {
                 var _img = $(this);
-                var _imgWidth = _img.width();
-                var _imgHeight = _img.height();
+                var _imgWidth = _img.width(900);
+                var _imgHeight = _img.height(450);
                 orbit.width(_imgWidth);
                 orbitWidth = orbit.width()
                 orbit.height(_imgHeight)

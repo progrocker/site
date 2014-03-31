@@ -141,8 +141,8 @@ float:left;
 }
 #nav ul li a:active,
 #nav ul li a.active {
-    padding-top: 2px;
-    box-shadow: inset 0 1px 0 #0070a3,inset 0 0 40px 0 #0d1b30;
+    box-shadow: inset 0 1px 0 #0070a3,inset 0 0 50px 0 #0d1b30;
+	text-shadow: 0 1px 3px #143157;
 }
 #nav ul li a span {
     border-left: 1px solid #143157;

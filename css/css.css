@@ -160,6 +160,7 @@ float:left;
 float:left;
 width: 250px;
 height: 100%;
+border-radius: 5px;
 border: solid 1px;
 list-style-position:inside;
 }
@@ -229,7 +230,7 @@ float:left;
     position:relative;
     padding:1em;
     margin:2em 10px 4em;
-    background:#fff;
+    background:rgb(255,255,255);
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;

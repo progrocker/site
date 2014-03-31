@@ -60,7 +60,6 @@ overflow:hidden;
 margin: 0 auto ;
 width: 1200px;
 height: 100%;
-border: 1px solid;
 }
 
 #logo{
@@ -224,3 +223,39 @@ height: 300px;
 border: solid 1px;
 float:left;
 }
+/***Тени для mainpage***/
+.curved-vt-2 {
+	border-radius: 5px;
+    position:relative;
+    padding:1em;
+    margin:2em 10px 4em;
+    background:#fff;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+ 
+.curved-vt-2:before,
+.curved-vt-2:after {
+    content:"";
+    position:absolute;
+    z-index:-2;
+}
+ 
+.curved-vt-2:before {
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -webkit-box-shadow:0 0 15px rgba(0,0,0,0.6);
+       -moz-box-shadow:0 0 15px rgba(0,0,0,0.6);
+            box-shadow:0 0 15px rgba(0,0,0,0.6);
+    -moz-border-radius:10px / 100px;
+         border-radius:10px / 100px;
+}
+ 
+.curved-vt-2 p {
+    font-size:16px;
+    font-weight:bold;
+} 
+/***Тени для mainpage end***/

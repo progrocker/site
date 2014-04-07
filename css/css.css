@@ -218,12 +218,6 @@ font-size: 14pt;
 text-indent: 35px;
 }
 
-#partneri{
-width: 1200px;
-height: 300px;
-border: solid 1px;
-float:left;
-}
 /***Тени для mainpage***/
 .curved-vt-2 {
 	border-radius: 5px;

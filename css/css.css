@@ -13,7 +13,8 @@ height:100%
 
 body {
 background: url(../images/bg.png) #EAEAEA;
-overflow: hidden;
+overflow-y: scroll;
+overflow-x: hidden;
 font-family: 'HelveticaRegular', Helvetica, Arial;
 font-size: 12px;
 min-width: 740px;
@@ -217,7 +218,12 @@ border: solid 1px;
 font-size: 14pt;
 text-indent: 35px;
 }
+#partners {
+float:left;
+height:350px;
 
+
+}
 /***Тени для mainpage***/
 .curved-vt-2 {
 	border-radius: 5px;
@@ -234,7 +240,7 @@ text-indent: 35px;
 .curved-vt-2:after {
     content:"";
     position:absolute;
-    z-index:-2;
+    z-index:-3;
 }
  
 .curved-vt-2:before {

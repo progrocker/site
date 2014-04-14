@@ -260,3 +260,23 @@ height:350px;
     font-weight:bold;
 } 
 /***Тени для mainpage end***/
+
+#logoParade
+		{
+		float:left;
+			width: 728px;
+			height: 75px;
+			position: relative;
+			margin:0px auto;
+		}
+		#logoParade div.scrollableArea a
+		{
+			display: block;
+			float: left;
+			padding-left: 10px;
+		}
+#op {
+float:left;
+height: 400px;
+
+}

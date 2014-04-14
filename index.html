@@ -7,26 +7,11 @@
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 <link href="css/slider.css"rel="stylesheet" type="text/css">
 <link href="css/smoothDivScroll.css"rel="Stylesheet" type="text/css"  />
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="js/js.js" type="text/javascript"></script>
-<!-- Run the plugin(slider) -->
-<script src="js/js2.js" type="text/javascript"></script>
 
-<style type="text/css">
-		#logoParade
-		{
-			width: 728px;
-			height: 75px;
-			position: relative;
-			margin:50px auto;
-		}
-		#logoParade div.scrollableArea a
-		{
-			display: block;
-			float: left;
-			padding-left: 10px;
-		}
-	</style>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script src="js/js.js" type="text/javascript"></script>
+<script src="js/js2.js" type="text/javascript"></script>
 
 </head>
 
@@ -95,8 +80,8 @@
 		<span class="orbit-caption" id="ezioCaption">Молоток</span>
 		<span class="orbit-caption" id="marcusCaption">Вот такой вот молоток</a></span>
 </div>
-<div="u">
-	<div id="logoParade">
+
+<div id="logoParade">
 		<a href="http://www.kmart.com/" target="_blank"><img src="images/logos/k-mart.gif" alt="K-mart" border="0"/></a>
 		<a href="http://www.radioshack.com/" target="_blank"><img src="images/logos/radio_shack.gif" alt="Radio Shack" border="0"/></a>
 		<a href="http://www.ibm.com/" target="_blank"><img src="images/logos/ibm.gif" alt="IBM" border="0"/></a>
@@ -108,18 +93,20 @@
 		<a href="http://www.volkswagen.com/" target="_blank"><img src="images/logos/volkswagen.gif" alt="Volkswagen" border="0"/></a>
 		<a href="http://www.apple.com/" target="_blank"><img src="images/logos/apple.gif" alt="Apple Computer" border="0"/></a>
 	</div>
-</div>
+
+<div id="op"></div>
 	<!-- LOAD JAVASCRIPT LATE - JUST BEFORE THE BODY TAG 
 		 That way the browser will have loaded the images
 	  	 and will know the width of the images. No need to
 		 specify the width in the CSS or inline. -->
 
+	<!-- jQuery library - Please load it from Google API's -->
 
 
-	
-		<!-- jQuery UI Widget and Effects Core (custom download)
+	<!-- jQuery UI Widget and Effects Core (custom download)
 		 You can make your own at: http://jqueryui.com/download -->
 	<script src="js/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+	
 	<!-- Latest version of jQuery Mouse Wheel by Brandon Aaron
 		 You will find it here: http://brandonaaron.net/code/mousewheel/demos -->
 	<script src="js/jquery.mousewheel.min.js" type="text/javascript"></script>
@@ -153,6 +140,7 @@
 		});
 		
 	</script>
+
 
 </div>
 </div>
